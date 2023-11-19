@@ -1,0 +1,499 @@
+<!-- Infos page HTML -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Head -->
+
+<head>
+    <meta charset="utf-8">
+    <title>Apolline Vandaele｜CV</title>
+    <link href="stylecv.css" rel="stylesheet">
+    <!-- Import des polices GoogleFonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    </style>
+</head>
+
+<!-- Body -->
+
+<body>
+    <section class="flex">
+        <!-- Section 1 : colonne de gauche -->
+        <section id="section1">
+            <div id="elements1">
+                <!-- Identité -->
+                <article>
+                    <!-- Photo CV -->
+                    <div class="profil"><img src="src/PhotoCV.svg" alt="Ma photo"></div>
+                    <!-- Nom et poste -->
+                    <div class="profil">
+                        <h1>Apolline Vandaele</h1>
+                        <div class="soustitre">Recherche de stage en UX Design</div>
+                        <div id="recherche">
+                            <p><i><b>3 mois - À partir d'avril 2024</b></i></p>
+                        </div>
+                    </div>
+                </article>
+                <!-- Contact-->
+                <aside>
+                    <!-- Coordonnées -->
+                    <div id="contact">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"><img src="src/IconProfil.svg" alt="Identité"></th>
+                                    <td class="coordonnees">21 ans - Permis B</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="src/IconMail.svg" alt="E-mail"></th>
+                                    <td class="coordonnees">vandaele.apolline@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="src/IconPhone.svg" alt="Téléphone"></th>
+                                    <td class="coordonnees">06 52 76 82 15</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="src/IconLocation.svg" alt="Adresse"></th>
+                                    <td class="coordonnees">Villeneuve-d'Ascq</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Bouton -->
+                    <div>
+                        <form action="src/cv-apolline-vandaele-recherche-stage-ux-design.pdf" method="get"
+                            target="_blank">
+                            <button type="submit" class="bouton flex"><img src="src/IconTelecharger.svg"
+                                    alt="Téléchargez" id="telecharger">
+                                <span id="textebouton">Téléchargez mon CV</span>
+                            </button>
+                        </form>
+                    </div>
+                    <!-- Réseaux sociaux -->
+                    <div class="flex"><a href="https://www.linkedin.com/in/apolline-vandaele/" target="_blank"><img
+                                src="src/Linkedin.svg" alt="LinkedIn" class="reseau"></a>
+                        <a href="https://vandaele.fr/" target="_blank"><img src="src/Portfolio.svg" alt="Portfolio"
+                                class="reseau"></a>
+                        <a href="https://www.behance.net/apollinevandaele/" target="_blank"><img src="src/Behance.svg"
+                                alt="Behance" class="reseau"></a>
+                    </div>
+                    <div class="flex">
+                        <p id="legendereseau1">LinkedIn</p>
+                        <p id="legendereseau2">Portfolio</p>
+                        <p id="legendereseau3">Behance</p>
+                    </div>
+                </aside>
+                <!-- Intérêts -->
+                <aside>
+                    <div id="interets">
+                        <h2>Intérêts</h2>
+                        <!-- Liste intérêts -->
+                        <ul>
+                            <li>Jeux vidéo narratifs</li>
+                            <li>Poésie moderne et contemporaine</li>
+                            <li>Théâtre (5 ans de pratique)</li>
+                            <li>Cinéma d'art et essai</li>
+                            <li>Pédagogie</li>
+                            <li>Mon chat !</li>
+                        </ul>
+                    </div>
+                    <div id="athae"><img src="src/Violet.jpg"></div>
+                </aside>
+            </div>
+        </section>
+        <!-- Section 2 : colonnes de droite-->
+        <section class="section2 flex">
+            <section>
+                <div id="elements2">
+                    <!-- A propos -->
+                    <article class="description">
+                        <h2>À propos</h2>
+                        <p>Étudiante en <b>Master Design Graphique et d’Interaction</b> à l’Université Polytechnique
+                            Hauts-de-France, je suis à
+                            la recherche d’un <b>stage de 3 mois en UX Design à partir d’avril 2024</b>.</p>
+                    </article>
+                    <!-- Parcours scolaire -->
+                    <article class="description">
+                        <h2 class="partieexperience">Parcours scolaire</h2>
+                        <!-- Master -->
+                        <div class="collapsible">
+                            <input id="collapsible1" class="fleche" type="checkbox">
+                            <label for="collapsible1" class="cadre">
+                                <span class="annees">
+                                    <span class="h5">2023
+                                        2025
+                                    </span>
+                                </span>
+                                <span class="cartouche">
+                                    <span class="h3 experience">Master Design Graphique et d'Interaction<br></span>
+                                    <span class="h4"><i>Université Polytechnique Hauts-de-France,
+                                            Valenciennes</i></span>
+                                </span>
+                            </label>
+                            <div class="contenu-collapsible">
+                                <div class="contenu">
+                                    <ul>
+                                        <li>Réalisation de l’<b>audit ergonomique</b> d’un site web</li>
+                                        <li>Conception de <b>prototypes format mobiles et desktop</b> respectant les
+                                            grands
+                                            principes du
+                                            design thinking et du design centré utilisateur</li>
+                                        <li><b>Conception d’identités visuelles</b>, design graphique <b>print</b> et
+                                            <b>web</b>
+                                        </li>
+                                        <li>Création de <b>sites web responsive</b> en HTML/CSS</li>
+                                    </ul>
+                                    <a href="https://master-creation-numerique.fr/" target="_blank"><b>Site web de la
+                                            formation</b></a>
+                                    <p><i><b>En cours</b></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Licence -->
+                        <div class="collapsible">
+                            <input id="collapsible2" class="fleche" type="checkbox">
+                            <label for="collapsible2" class="cadre">
+                                <span class="annees">
+                                    <span class="h5">2022
+                                        2023
+                                    </span>
+                                </span>
+                                <span class="cartouche">
+                                    <span class="h3 experience">Licence Lettres modernes<br></span>
+                                    <span class="h4"><i>Université de Lille</i></span>
+                                </span>
+                            </label>
+                            <div class="contenu-collapsible">
+                                <div class="contenu">
+                                    <ul>
+                                        <li>Étude de la littérature française et comparée</li>
+                                        <li>Projet de mémoire de recherche sur la <b>narration interactive dans les jeux
+                                                vidéo</b>
+                                        </li>
+                                        <li>Pratique de l'écriture créative</li>
+                                    </ul>
+                                    <p><i><b>Mention Très Bien</b></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Prépa -->
+                        <div class="collapsible">
+                            <input id="collapsible3" class="fleche" type="checkbox">
+                            <label for="collapsible3" class="cadre">
+                                <span class="annees">
+                                    <span class="h5">2020
+                                        2022
+                                    </span>
+                                </span>
+                                <span class="cartouche">
+                                    <span class="h3 experience">Classe préparatoire Littéraire<br></span>
+                                    <span class="h4"><i>CPGE Lycée Faidherbe, Lille</i></span>
+                                </span>
+                            </label>
+                            <div class="contenu-collapsible">
+                                <div class="contenu">
+                                    <ul>
+                                        <li>Préparation du concours de l'École Normale Supérieure</li>
+                                        <li>Hypokhâgne options latin et théâtre</li>
+                                        <li>Khâgne Ulm spécialité Lettres modernes</li>
+                                    </ul>
+                                    <p><i><b>Mention Excellent</b></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Lycée -->
+                        <div class="collapsible">
+                            <input id="collapsible4" class="fleche" type="checkbox">
+                            <label for="collapsible4" class="cadre">
+                                <span class="annees">
+                                    <span class="h5">2017
+                                        2020
+                                    </span>
+                                </span>
+                                <span class="cartouche">
+                                    <span class="h3 experience">Baccalauréat Littéraire<br></span>
+                                    <span class="h4"><i>CPGE Lycée Faidherbe, Lille</i></span>
+                                </span>
+                            </label>
+                            <div class="contenu-collapsible">
+                                <div class="contenu">
+                                    <ul>
+                                        <li>Spécialité Mathématiques</li>
+                                        <li>Section Européenne (cours d'histoire et de littérature en anglais)</li>
+                                        <li>Option Informatique et Création Numérique</li>
+                                    </ul>
+                                    <p><i><b>Mention Tès Bien avec les félicitations du jury</b></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Expériences professionnelles -->
+                    <article class="description">
+                        <h2 class="partieexperience">Expériences professionnelles</h2>
+                        <!-- Graphiste -->
+                        <div class="collapsible">
+                            <input id="collapsible5" class="fleche" type="checkbox">
+                            <label for="collapsible5" class="cadre">
+                                <span class="annees">
+                                    <span class="h5">Août
+                                        2023
+                                    </span>
+                                </span>
+                                <span class="cartouche">
+                                    <span class="h3 experience">Graphiste<br></span>
+                                    <span class="h4"><i>QG Mensuierie, Jolimetz</i></span>
+                                </span>
+                            </label>
+                            <div class="contenu-collapsible">
+                                <div class="contenu">
+                                    <ul>
+                                        <li><b>Conception de l'identité visuelle</b> de la marque</li>
+                                        <li>Création du <b>logo et de supports de communication imprimés</b></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Assistante communication -->
+                        <div class="collapsible">
+                            <input id="collapsible6" class="fleche" type="checkbox">
+                            <label for="collapsible6" class="cadre">
+                                <span class="annees">
+                                    <span class="h6">Étés
+                                        2022
+                                        2023
+                                    </span>
+                                </span>
+                                <span class="cartouche">
+                                    <span class="h3 experience">Assistante communication<br></span>
+                                    <span class="h4"><i>Mairie de Montigny-En-Ostrevent</i></span>
+                                </span>
+                            </label>
+                            <div class="contenu-collapsible">
+                                <div class="contenu">
+                                    <ul>
+                                        <li>Conception de <b>supports de communication print et web</b> (affiches,
+                                            logos)
+                                        </li>
+                                        <li><b>Rédaction d'articles</b> pour le journal municipal</li>
+                                        <li><b>Communication sur les réseaux sociaux</b> et <b>administration du
+                                                site
+                                                internet
+                                                et de
+                                                l'application Ma Mairie en Poche</b></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Professeur de français -->
+                        <div class="collapsible">
+                            <input id="collapsible7" class="fleche" type="checkbox">
+                            <label for="collapsible7" class="cadre">
+                                <span class="annees">
+                                    <span class="h6">Janvier
+                                        Avril
+                                        2023
+                                    </span>
+                                </span>
+                                <span class="cartouche">
+                                    <span class="h3 experience">Professeur de français<br></span>
+                                    <span class="h4"><i>Collège Triolo / Centre Marc Sautelet,
+                                            Villeneuve-d'Ascq</i></span>
+                                </span>
+                            </label>
+                            <div class="contenu-collapsible">
+                                <div class="contenu">
+                                    <ul>
+                                        <li>Stage de pratique en classes de 6ème et 4ème</li>
+                                        <li>Préparation de <b>supports pédagogiques adaptés à différents profils</b>
+                                        </li>
+                                        <li>Intervention auprès d'élèves en situation de handicap</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Expériences associatives -->
+                    <aside class="description">
+                        <h2 class="partieexperience">Expériences associatives</h2>
+                        <!-- Festival culturel -->
+                        <div class="collapsible">
+                            <input id="collapsible8" class="fleche" type="checkbox">
+                            <label for="collapsible8" class="cadre">
+                                <span class="annees">
+                                    <span class="h5">Février
+                                        2020
+                                    </span>
+                                </span>
+                                <span class="cartouche">
+                                    <span class="h3 experience">Organisatrice d'événement culturel<br></span>
+                                    <span class="h4"><i>Lycée Arthur Rimbaud, Sin-Le-Noble</i></span>
+                                </span>
+                            </label>
+                            <div class="contenu-collapsible">
+                                <div class="contenu">
+                                    <ul>
+                                        <li>Création et organisation d'une semaine de <b>Festival Culturel</b> avec
+                                            la
+                                            participation
+                                            de
+                                            différents intervenants (Louvre-Lens, librairie lilloise La Chouette
+                                            Librairie...)
+                                            en
+                                            tant
+                                            qu'élue au CVL et présidente du Club culture</li>
+                                        <li><b>Responsable de la communication interne et externe</b> autour de
+                                            l'évènement
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Forums -->
+                        <div class="collapsible">
+                            <input id="collapsible9" class="fleche" type="checkbox">
+                            <label for="collapsible9" class="cadre">
+                                <span class="annees">
+                                    <span class="h5">2014
+                                        2027
+                                    </span>
+                                </span>
+                                <span class="cartouche">
+                                    <span class="h3 experience">Administratrice de forums, webdesigner<br></span>
+                                    <span class="h4"><i><a href="https://cocktail-graph.forumactif.com/"
+                                                target="_blank">Cocktail
+                                                Graph'</a> / <a href="https://ocean-home.forumactif.org/"
+                                                target="_blank">Ocean Home</a></i></span>
+                                </span>
+                            </label>
+                            <div class="contenu-collapsible">
+                                <div class="contenu">
+                                    <ul>
+                                        <li>Administration de forums en phpBB</li>
+                                        <li><b>Webdesign, design graphique</b></li>
+                                        <li><b>Gestion d'une communauté</b> et modération</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+            <!-- Deuxième partie de la section 2 -->
+            <section id="section3">
+                <!-- Logiciels et langages -->
+                <aside>
+                    <h2>Logiciels et langages</h2>
+                    <div id="indication">
+                        <p><i><b>Survolez un logiciel</b> pour voir mes compétences !</i></p>
+                    </div>
+                    <div>
+                        <div class="logiciel tooltip">
+                            <img src="src/Photoshop.svg" alt="Photoshop" />
+                            <span class="tooltiptext">Créations graphiques, photomontage</span>
+                        </div>
+                        <div class="logiciel tooltip">
+                            <img src="src/Illustrator.svg" alt="Illustrator" />
+                            <span class="tooltiptext">Création de logotypes, illustration</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="logiciel tooltip">
+                            <img src="src/InDesign.svg" alt="InDesign" />
+                            <span class="tooltiptext">Réalisation de livres et de flyers</span>
+                        </div>
+                        <div class="logiciel tooltip">
+                            <img src="src/AfterEffects.svg" alt="AfterEffects" />
+                            <span class="tooltiptext">Montage vidéo et son</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="logiciel tooltip">
+                            <img src="src/Figma.svg" alt="Figma" />
+                            <span class="tooltiptext">Wireframes, maquettes graphiques et prototypes de sites web et
+                                d'applications mobiles</span>
+                        </div>
+                        <div class="logiciel tooltip">
+                            <img src="src/Renpy.svg" alt="Ren'Py" />
+                            <span class="tooltiptext">Création de jeux vidéo narratifs (visual novels) en utilisant le
+                                langage Python</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="logiciel tooltip">
+                            <img src="src/HTML5.svg" alt="Langage HTML" />
+                            <span class="tooltiptext">Création de sites web responsive en langage HTML</span>
+                        </div>
+                        <div class="logiciel tooltip">
+                            <img src="src/CSS3.svg" alt="Langage CSS" />
+                            <span class="tooltiptext">Création de sites web responsive en langage CSS</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="logiciel tooltip">
+                            <img src="src/Bootstrap.svg" alt="Bootstrap" />
+                            <span class="tooltiptext">Utilsation du framework Bootstrap pour créer des sites web
+                                responsive</span>
+                        </div>
+                        <div class="logiciel tooltip">
+                            <img src="src/Wordpress.svg" alt="Wordpress" />
+                            <span class="tooltiptext">Création de sites de e-commerce avec le CMS Wordpress</span>
+                        </div>
+                    </div>
+                    <div id="bureautique">
+                        <div class="flex"><img src="src/IconAdd.svg" alt="Icône +" id="icone-plus">
+                            <p id="infos-bureautique">Suite Office, GDrive, RS</p>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Langues vivantes -->
+                <aside class="description">
+                    <h2>Langues</h2>
+                    <table class="tablestyle">
+                        <thead>
+                            <tr>
+                                <th><b>Français</b></th>
+                                <td class="tdstyle">Native</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><b>Anglais</b></th>
+                                <td class="tdstyle">C1</td>
+                            </tr>
+                            <tr>
+                                <th><b>Allemand</b></th>
+                                <td class="tdstyle">B1</td>
+                            </tr>
+                            <tr>
+                                <th><b>Japonais</b></th>
+                                <td class="tdstyle">A1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </aside>
+                <!-- Soft skills -->
+                <aside class="description">
+                    <h2 id="titre">Soft skills</h2>
+                    <ul>
+                        <li>Créativité</li>
+                        <li>Organisation</li>
+                        <li>Autonomie</li>
+                        <li>Esprit critique</li>
+                        <li>Travail en équipe</li>
+                    </ul>
+                </aside>
+            </section>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex footer">
+        <!-- Athaé-->
+        <div id="athae"><img src="src/Athae.svg" alt="Photographie de mon chat Athaé"></div>
+        <div><b>© Apolline Vandaele 2023</b></div>
+        <div><img src="src/Logo.svg" alt="Logo Apolline Vandaele"></div>
+    </footer>
+</body>
+
+</html>

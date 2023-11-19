@@ -1,0 +1,412 @@
+/* Général */
+
+body,
+h1 {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.bouton,
+.logiciel {
+    cursor: pointer;
+}
+
+/* Style des textes */
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1,
+h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.soustitre {
+    color: #7544A7;
+}
+
+.h5,
+.h6 {
+    color: #FFFFFF;
+}
+
+h1,
+h2,
+.h5,
+.h6,
+.soustitre {
+    font-weight: 600;
+}
+
+.h5,
+.soustitre {
+    font-size: 110%;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+.h3 {
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.h4 {
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 9px;
+}
+
+.h5 {
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.h6 {
+    display: inline-block;
+    font-size: 92%;
+    margin-top: -3px;
+}
+
+.soustitre {
+    margin-top: 3%;
+}
+
+/* Section 1 */
+
+#section1 {
+    background-color: #e7d9f4;
+}
+
+#elements1 {
+    padding-top: 10%;
+}
+
+.profil {
+    margin: 9%;
+}
+
+#recherche {
+    margin-top: -5%;
+    margin-bottom: 2%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+#contact {
+    margin-top: 4%;
+    margin-bottom: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.coordonnees {
+    padding: 4%;
+}
+
+#telecharger {
+    margin-top: 16px;
+}
+
+#textebouton {
+    padding-top: 7%;
+    padding-left: 10px;
+}
+
+.bouton {
+    color: #FFFFFF;
+    background-color: #324DDA;
+    font-size: 103%;
+    width: 80%;
+    height: 60px;
+    margin-bottom: 7%;
+    margin-left: 8%;
+    padding-left: 44px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 2px;
+    box-shadow: -1px 2px 4px #000000;
+}
+
+
+.bouton:hover {
+    background-color: #000099;
+    margin-left: 8%;
+    padding-left: 44px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 2px;
+    box-shadow: -1px 2px 6px #000000;
+}
+
+.reseau {
+    margin-top: 30%;
+    margin-left: 35%;
+    padding: 7px;
+}
+
+#legendereseau1 {
+    margin-top: -4%;
+    margin-left: 12.5%;
+}
+
+#legendereseau2 {
+    margin-top: -4%;
+    margin-left: 8%;
+}
+
+#legendereseau3 {
+    margin-top: -4%;
+    margin-left: 7%;
+}
+
+#titre {
+    margin-top: 10%;
+}
+
+#interets {
+    margin-left: 7%;
+}
+
+/* Section 2 partie 1 */
+
+.section2 {
+    align-self: stretch;
+    height: auto;
+    padding: 2%;
+}
+
+#elements2 {
+    padding-top: 5%;
+    padding-left: 4%;
+}
+
+.partieexperience {
+    margin-top: 4%;
+    margin-left: 3%;
+    padding: -4%;
+}
+
+.experience {
+    margin-bottom: -2%;
+}
+
+.annees {
+    background-color: #7544A7;
+    color: #FFFFFF;
+    width: 8%;
+    height: 8%;
+    margin-top: -1%;
+    padding: 1%;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 0px;
+    text-align: center;
+
+}
+
+.description {
+    padding-bottom: 1%;
+}
+
+/* Collapsible parcours scolaire et expériences */
+
+input[type='checkbox'] {
+    display: none;
+}
+
+.collapsible {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.cadre {
+    cursor: pointer;
+    background-color: #e7d9f4;
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    border-radius: 35px;
+    border-width: 3px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.cadre:hover {
+    color: #300a57;
+}
+
+.cadre:after {
+    content: ' ';
+    display: inline-block;
+    width: 1%;
+    height: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #45107b;
+    transform: translateY(-2px);
+}
+
+.fleche:checked+.cadre::after {
+    transform: rotate(90deg) translateX(-3px);
+}
+
+.contenu-collapsible {
+    max-height: 0px;
+    overflow: hidden;
+
+}
+
+.fleche:checked+.cadre+.contenu-collapsible {
+    max-height: 350px;
+}
+
+.fleche:checked+.cadre {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.contenu-collapsible .contenu {
+    background: #FFFFFF;
+    padding: 2%;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-left: 3px solid #000000;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.contenu-collapsible p {
+    margin-bottom: 0;
+}
+
+.cartouche {
+    margin-bottom: 2%;
+    margin-left: 2%;
+    width: 100%;
+}
+
+/* Section 2 partie 2 */
+
+#section3 {
+    padding-top: 4%;
+    padding-left: 5%;
+}
+
+#indication {
+    color: #7544A7;
+    margin-top: -9%;
+    margin-bottom: 18%;
+}
+
+/* Hovering logiciels et langages */
+
+.logiciel {
+    opacity: 70%;
+}
+
+.logiciel:hover {
+    opacity: 100%;
+}
+
+.tooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #45107b;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    padding: 5px 0;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px #b0b0b0;
+    text-align: center;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#bureautique {
+    background-color: #e7d9f4;
+    width: 93%;
+    height: calc(100%-63px);
+    margin-top: 3%;
+    margin-bottom: 2%;
+    padding-bottom: 9%;
+    padding-right: 3%;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 1px #b0b0b0;
+    text-align: center;
+}
+
+#icone-plus {
+    width: 26%;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+
+#infos-bureautique {
+    color: #7544A7;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 10%;
+}
+
+.tablestyle {
+    text-align: left;
+}
+
+.tdstyle {
+    text-align: right;
+}
+
+/* Footer */
+
+footer {
+    background-image: url(https://www.bhmpics.com/downloads/pastel-purple-laptop-wallpapers-/43.087pikbestinv.jpg!bw700.jpg);
+    border-top: 1px solid #45107b;
+    justify-content: flex-end;
+    align-content: center;
+    vertical-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+}
+
+footer div {
+    align-self: center
+}
+
+#athae {
+    justify-self: flex-start;
+    margin-right: auto;
+}
